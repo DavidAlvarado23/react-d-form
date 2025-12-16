@@ -62,13 +62,8 @@ var __exportStar =
       if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p))
         __createBinding(exports, m, p);
   };
-var __importDefault =
-  (this && this.__importDefault) ||
-  function (mod) {
-    return mod && mod.__esModule ? mod : { default: mod };
-  };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ReactDForm = exports.GetComponent = void 0;
+exports.GetComponent = void 0;
 var core_1 = __importStar(require("./lib/core"));
 Object.defineProperty(exports, "GetComponent", {
   enumerable: true,
@@ -76,8 +71,6 @@ Object.defineProperty(exports, "GetComponent", {
     return core_1.GetComponent;
   },
 });
-var react_web_1 = __importDefault(require("./react-web"));
-exports.ReactDForm = react_web_1.default;
 __exportStar(require("./helpers/getError"), exports);
 __exportStar(require("./types"), exports);
 exports.default = core_1.default;
